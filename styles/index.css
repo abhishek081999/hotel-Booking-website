@@ -3,11 +3,12 @@
 }
 
 #city_cards {
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
-    align-items: center;
+    grid-template-columns: auto auto auto auto;
     padding: 4%;
-    flex-wrap: wrap;
+    gap: 4em;
+    
 }
 
 #city_cards > div > img{
